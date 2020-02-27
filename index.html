@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- normalize -->
+  <link rel="stylesheet" href="css/normalize.css">
+
+  <!-- links bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+  <!-- iconos font awesome -->
+  <script src="https://kit.fontawesome.com/ad52221b48.js" crossorigin="anonymous"></script>
+
+  <!-- mis estilos -->
+  <link rel="stylesheet" href="css/styleIndex.css">
+
+  <!-- Fuentes  -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300|Montserrat|Open+Sans" rel="stylesheet">
+
+  <title>fm 3fronteras</title>
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+            <a class="nav-link mr-5" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mr-5" href="#" data-toggle="modal" data-target="#modalContacto">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mr-5" href="#">Eventos</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.facebook.com/fm3fronteras/" class="nav-link mr-5">
+              <i class="fab fa-facebook-square"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="info">
+      <div class="text ">
+        <h1 class="ml-4">[F.M - 101.1]</h1>
+        <h2>Radio | 3Fronteras</h2>
+        <p>- La radio que está -</p>
+        <p> en el <i class="fas fa-heart"></i> de la gente</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Radio y publicidad pequeña -->
+    <div class="d-flex">
+      <!-- publicidad carousel izquierda -->
+      <div id="carousel-publi-a" class="carousel slide mx-4" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-interval="7000">
+            <img src="img/publicidad-1.png" class="d-flex img-car" alt="...">
+          </div>
+          <div class="carousel-item" data-interval="7000">
+            <img src="img/publicidad-2.png" class="d-flex img-car" alt="...">
+          </div>
+          <div class="carousel-item" data-interval="7000">
+            <img src="img/publicidad-3.png" class="d-flex img-car" alt="...">
+          </div>
+          <div class="carousel-item" data-interval="7000">
+            <img src="img/publicidad-7.png" class="d-flex img-car" alt="...">
+          </div>
+          <div class="carousel-item" data-interval="7000">
+            <img src="img/publicidad-9.png" class="d-flex img-car" alt="...">
+          </div>
+          <div class="carousel-item" data-interval="7000">
+            <img src="img/publicidad-11.png" class="d-flex img-car" alt="...">
+          </div>
+        </div>
+      </div>
+      <!-- iframe radio centro -->
+      <div class="text-center publi mt-0">
+        <iframe name="contenedorPlayer" class="cuadroBordeado" allow="autoplay" width="250px" height="80px"
+          marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no"
+          src="https://cp.usastreams.com/html5PlayerBotonGrande.aspx?stream=http://argentina.republicahosting.com:8230/live&amp;fondo=05&amp;formato=mpeg&amp;color=14&amp;titulo=2&amp;autoStart=1&amp;vol=5&amp;nombre=FM+3+Fronteras&amp;imagen=https://cp.usastreams.com/playerHTML5/img/equalizer1.gif"><a
+            href="https://www.usastreams.com/"
+            alt="Usastreams.com posicionamiento web, Servicios SEO y SEM, servicios streaming"
+            title="Servicios de Streaming Para Tv On Line ,Planes de streaming para emisoras de radio ,hosting mp4 ,hosting radio gratis autodj,">streaming
+            hosting ,streaming eventos</a></iframe>
+      </div>
+      <!-- publicidad carousel derecha-->
+      <div id="carousel-publi-b" class="carousel slide mx-4" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-interval="7000">
+            <img src="img/publicidad-4.png" class="d-flex img-car" alt="...">
+          </div>
+          <div class="carousel-item" data-interval="7000">
+            <img src="img/publicidad-5.png" class="d-flex img-car" alt="...">
+          </div>
+          <div class="carousel-item" data-interval="7000">
+            <img src="img/publicidad-6.png" class="d-flex img-car" alt="...">
+          </div>
+          <div class="carousel-item" data-interval="7000">
+            <img src="img/publicidad-8.png" class="d-flex img-car" alt="...">
+          </div>
+          <div class="carousel-item" data-interval="7000">
+            <img src="img/publicidad-10.png" class="d-flex img-car" alt="...">
+          </div>
+          <div class="carousel-item" data-interval="7000">
+            <img src="img/publicidad-12.png" class="d-flex img-car" alt="...">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- info de la radio -->
+    <div class="container mx-auto my-5">
+      <div class="card-deck">
+        <div class="card">
+          <img src="img/foto2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Locución - Korina</h5>
+            <p class="card-text"> Lu - Vie | 9am a 12hs</p>
+            <p class="card-text">
+              Tengo la oportunidad de formar parte de esta radio cada día y me hace querer transmitir la alegría que
+              recibo de mis oyentes. Me da una gran motivación e inspiración, tan solo el hecho de trabajar aca y no hay
+              nada más gratificante que poder brindarle a la gente un poquito de lo que yo recibo al compartir el día a
+              día con ustedes.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Locución - Carmen</h5>
+            <p class="card-text"> Lu - Vie | 12am a 14hs Domingos | 10am a 13hs</p>
+            <p class="card-text">Estoy encantada de poder cada día difundir y defender nuestra cultura, mantener
+              nuestras costumbres, insitar a que disfruten de la escencia de la vida y del amor. Estoy siempre
+              acompañada del amor que me brindan y por sobretodo siempre creciendo junto a ustedes.</p>
+          </div>
+          <img src="img/foto.jpg" class="card-img-top" alt="...">
+        </div>
+      </div>
+    </div>
+
+    <!-- historia del creador de la radio -->
+    <section class="bg-creador pt-3">
+      <div class="container">
+        <div class="card">
+          <div class="card-body bg-text">
+            <h5 class="card-title">Chacho Perez</h5>
+            <p class="card-text">El folclorista Chacho a quien también le decian <strong>el compadre</strong>. Creó la
+              radio, fue compositor y autor de su propia música. Acompañado de su guitarra siempre defendió, difundió y
+              amó la cultura musical. Nuestro esfuerzo de seguir con su sueño hace que su recuerdo siempre este vivo y
+              en nuestros corazones.
+            </p>
+          </div>
+        </div>
+        <!-- Img y texto -->
+        <div class=" d-flex">
+          <!-- Texto -->
+
+          <!-- Img -->
+          <img src="img/chacho.png" class="card-img-top chacho mx-auto"
+            alt="Imagen del creador de la radio, Chacho Perez">
+        </div>
+      </div>
+
+      <!-- publicidad chica -->
+      <div class="d-flex py-5">
+        <div id="carousel-publi-c" class="carousel slide mx-auto" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-interval="7000">
+              <img src="img/publicidad-1.png" class="d-flex img-car" alt="...">
+            </div>
+            <div class="carousel-item" data-interval="7000">
+              <img src="img/publicidad-2.png" class="d-flex img-car" alt="...">
+            </div>
+            <div class="carousel-item" data-interval="7000">
+              <img src="img/publicidad-3.png" class="d-flex img-car" alt="...">
+            </div>
+            <div class="carousel-item" data-interval="7000">
+              <img src="img/publicidad-4.png" class="d-flex img-car" alt="...">
+            </div>
+            <div class="carousel-item" data-interval="7000">
+              <img src="img/publicidad-5.png" class="d-flex img-car" alt="...">
+            </div>
+            <div class="carousel-item" data-interval="7000">
+              <img src="img/publicidad-6.png" class="d-flex img-car" alt="...">
+            </div>
+            <div class="carousel-item" data-interval="7000">
+              <img src="img/publicidad-7.png" class="d-flex img-car" alt="...">
+            </div>
+            <div class="carousel-item" data-interval="7000">
+              <img src="img/publicidad-8.png" class="d-flex img-car" alt="...">
+            </div>
+            <div class="carousel-item" data-interval="7000">
+              <img src="img/publicidad-9.png" class="d-flex img-car" alt="...">
+            </div>
+            <div class="carousel-item" data-interval="7000">
+              <img src="img/publicidad-10.png" class="d-flex img-car" alt="...">
+            </div>
+            <div class="carousel-item" data-interval="7000">
+              <img src="img/publicidad-11.png" class="d-flex img-car" alt="...">
+            </div>
+            <div class="carousel-item" data-interval="7000">
+              <img src="img/publicidad-12.png" class="d-flex img-car" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- img -->
+    <section id="skills" class="py-5">
+      <div class="container">
+        <div class="row elementos">
+          <div class="col-lg-3 col-md-6">
+            <article class="marco">
+              <i class="fa fa-lightbulb-o"></i>
+              <div class="numero">752</div>
+              <p>Proyectos realizados</p>
+            </article>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <article class="marco">
+              <i class="fa fa-sitemap"></i>
+              <div class="numero">695</div>
+              <p>Clientes satisfechos</p>
+            </article>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <article class="marco">
+              <i class="fa fa-paper-plane-o"></i>
+              <div class="numero">6</div>
+              <p>Premios ganados</p>
+            </article>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <article class="marco">
+              <i class="fa fa-camera"></i>
+              <div class="numero">+900</div>
+              <p>Momentos compartidos</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Valores -->
+    <div class="container">
+        <div class="card-columns mx-auto my-5">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title"><i class="fas fa-users"></i> Siempre acompañados</h5>
+              <p class="card-text">Cada persona es un mundo, y cada una es diferente. Damos una atención personalizada,
+                cercana, profesional y cálida. Siempre con amor.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title"><i class="fa fa-heart"></i> Tenemos pasión</h5>
+              <p class="card-text">Y la plasmamos en cada uno de los proyectos. Y la contagiamos. Tenemos el privilegio de
+                amar lo que hacemos, y lo hacemos con el corazón.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card-columns mx-auto my-5">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title"><i class="far fa-grin-wink"></i> Somos creativos</h5>
+              <p class="card-text">La originalidad en la planificación y ejecución de nuestros proyectos nos permite
+                plasmar en cada uno de ellos nuestro sello personal: la diferenciación.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title"><i class="fas fa-hand-holding-usd"></i> Cuidamos tu inversión</h5>
+              <p class="card-text">Somos conscientes del valor que tiene una inversión en nuestro trabajo, y nuestro
+                objetivo es tu satisfacción con la misma. Vamos más allá de tus expectativas.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>
+      <small>&copy; F.M "3 Fronteras"</small>
+      <a href="#">| Contacto |</a>
+      <a href="#">Aviso Legal |</a>
+      <a href="#">Política cookies </a>
+    </p>
+
+    <span>
+      La musica es vida | la música es amor <i class="fa fa-heart"></i>
+    </span>
+  </footer>
+
+
+  <!-- Modal Contacto -->
+  <div class="modal fade" id="modalContacto" tabindex="-1" role="dialog" aria-labelledby="modal-con-body"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal-con-body">Nuestros contactos</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>
+            Telefono: 03775-405172
+          </p>
+          <p>
+            Dirección: San José de Flores 745 | Monte Caseros - Corrientes
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
